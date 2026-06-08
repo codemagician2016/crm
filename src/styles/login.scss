@@ -1,0 +1,82 @@
+.loginBg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+    .loginBox {
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.31);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.8px);
+        -webkit-backdrop-filter: blur(5.8px);
+        border: 1px solid rgba(255, 255, 255, 0.32);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        width: 400px;
+        height: 350px;
+    }
+    .signUpBox {
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.31);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.8px);
+        -webkit-backdrop-filter: blur(5.8px);
+        border: 1px solid rgba(255, 255, 255, 0.32);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-width: 600px;
+        height: 450px;
+    }
+    .organizationBox {
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.31);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.8px);
+        -webkit-backdrop-filter: blur(5.8px);
+        border: 1px solid rgba(255, 255, 255, 0.32);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-width: 600px;
+        height: 450px;
+
+        .card-header {
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+
+            .cardHeading {
+                color: $mainColor;
+                font-size: 20px;
+            }
+        }
+    }
+}
+.redirect{
+    color: #fff;
+    text-align: right;
+    margin-bottom: 16px;
+    color: var(--heading-color);
+    span{
+        color: var(--main-color);
+    }
+}

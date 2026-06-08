@@ -1,0 +1,40 @@
+{
+    "public": [
+        "/login",
+        "/signup",
+        "/deals",
+        "/sources",
+        "/"
+    ],
+    "super_admin": [
+        "/",
+        "/newleads",
+        "/employeelist",
+        "/addemployee",
+        "/leads",
+         "/deals",
+        "/organization",
+        "/organization-setting",
+        "/sources"
+    ],
+    "sales_person": [
+        "/",
+        "/newleads",
+        "/leads"
+    ],
+    "admin": [
+        "/",
+        "/employeelist",
+        "/addemployee",
+        "/newleads",
+        "/leads",
+        "/organization-setting"
+    ],
+    "manager": [
+        "/",
+        "/employeelist",
+        "/addemployee",
+        "/newleads",
+        "/leads"
+    ]
+}
